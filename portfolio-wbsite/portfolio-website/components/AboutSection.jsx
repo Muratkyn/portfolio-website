@@ -51,9 +51,10 @@ const AboutSection = () => {
         }); 
     };
   return (
-    <section className="text-white lg:mt-72" id="about">
+    <section className="text-white lg:mt-28" id="about">
     <div className="grid md:grid md:grid-cols-2 gap-8 py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
             <Image
+                alt='mkdev'
                 src="/images/mkdev.png"
                 width={520}
                 height={520}
