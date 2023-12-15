@@ -50,15 +50,6 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
 ];
 
 const ProjectsSection = () => {
@@ -100,7 +91,7 @@ const ProjectsSection = () => {
           isSelected={tag === "API"}
         />
       </div>
-      <ul className="grid md:grid-cols-2 gap-8 md:gap-12 lg:gap-8 lg:grid-cols-3 md:contain">
+      <ul className="grid md:grid-cols-2 gap-8  md:gap-12 lg:gap-8 lg:grid-cols-3 md:contain">
         {filteredProjects.map((project, index ) => (
           <motion.li 
           key={index}

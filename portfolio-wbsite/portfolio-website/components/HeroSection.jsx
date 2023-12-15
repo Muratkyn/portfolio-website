@@ -70,12 +70,16 @@ const HeroSection = () => {
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
       align="center" > 
-        <ul className='flex md:flex-row flex-flow mt-8 md:mt-24 items-center justify-center gap-2 cursor-pointer'>
-          <h1 className='mr-4 text-l md:text-xl'>Tech Stack:  </h1>
-          <li className='mr-4'><img src="https://skillicons.dev/icons?i=react,next" /></li>
-          <li className='mr-4'><img src="https://skillicons.dev/icons?i=javascript,typescript" /></li>
-          <li className='mr-4'><img src="https://skillicons.dev/icons?i=html,css" /></li>
-          <li className='mr-4'><img src="https://skillicons.dev/icons?i=tailwind,sass" /></li>
+        <ul className='block md:flex md:flex-row flex-flow mt-16 md:mt-24 items-center justify-center gap-2 cursor-pointer'>
+          <h1 className='mr-4 text-xl md:text-xl justify-center items-center flex mb-4 md:mb-0'>
+            Tech Stack:  
+          </h1>
+          <div className='flex mt-4 sm:mt-0 justify-center items-center '>
+            <li className='px-3 md:px-0 md:mr-4'><img src="https://skillicons.dev/icons?i=react,next" /></li>
+            <li className='px-3 md:px-0 md:mr-4'><img src="https://skillicons.dev/icons?i=javascript,typescript" /></li>
+            <li className='px-3 md:px-0 md:mr-4'><img src="https://skillicons.dev/icons?i=html,css" /></li>
+            <li className='px-3 md:px-0 md:mr-4'><img src="https://skillicons.dev/icons?i=tailwind,sass" /></li>
+          </div>
        </ul>
       </motion.div>
     </section>

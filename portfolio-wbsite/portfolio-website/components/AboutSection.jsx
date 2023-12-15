@@ -52,7 +52,7 @@ const AboutSection = () => {
     };
   return (
     <section className="text-white lg:mt-28" id="about">
-    <div className="grid md:grid md:grid-cols-2 gap-8 py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+    <div className="grid md:grid md:grid-cols-2 gap-8 py-8 px-4 xl:gap-4 sm:py-16 xl:px-28">
             <Image
                 alt='mkdev'
                 src="/images/mkdev.png"
@@ -60,8 +60,8 @@ const AboutSection = () => {
                 height={520}
                 className='shadow-3xl rounded-md'
             />
-            <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-                <h2 className="text-3xl font-bold text-white mb-4 mt-0">About Me</h2>
+            <div className="mt-4 md:mt-0 text-left flex flex-col h-full  ">
+                <h2 className="text-3xl font-bold text-white mb-4 mt-0 ">About Me</h2>
                 <p className="text-base lg:text-lg">
                     I am a Frontend Web developer with a passion for creating
                     interactive and responsive web applications. I have experience
