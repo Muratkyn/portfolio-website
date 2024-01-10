@@ -37,11 +37,11 @@ const HeroSection = () => {
 
           <div>
             <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-800 via-cyan-600 to-cyan-900 hover:bg-slate-200 text-white'>
-            <Link href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=muratk1845@gmail.com" >Hire me</Link>
+            <Link href="https://www.linkedin.com/in/murat-koyun-69129727b/" >Hire me</Link>
             </button>
             <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br  from-blue-800 via-cyan-600 to-cyan-900 hover hover:bg-slate-800 text-white mt-3'>
               <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>
-                  <a href="../public/pdf/murat.pdf" download='download' >Download CV</a>
+                  <Link href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=muratk1845@gmail.com" download='download' >Contact</Link>
               </span>
             </button>
           </div>
